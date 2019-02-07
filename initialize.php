@@ -3,7 +3,7 @@
 
 
 $client_id = "785fuyeuua8cab";
-$client_secret = "nxTNivzHENtEfVvI";
+$client_secret = "something";
 $redirect_uri = "http://localhost/Exercise/landing.php";
 $csrf_token = random_int(1111111, 9999999);
 $scopes = "r_basicprofile%20r_emailaddress";
@@ -27,8 +27,8 @@ function curl($url, $parameters)
 function getDetails()
 {
     $client_id = "785fuyeuua8cab";
-    $client_secret = "nxTNivzHENtEfVvI";
-    $redirect_uri = "Exercise/display.php";
+    $client_secret = "something";
+    $redirect_uri = "Question3/display.php";
     $csrf_token = random_int(1111111, 9999999);
     $scopes = "r_basicprofile%20r_emailaddress";
 
